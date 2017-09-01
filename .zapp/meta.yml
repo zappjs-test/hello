@@ -1,1 +1,6 @@
-{}
+specs:
+  /app/description: {}
+  /app:
+    keys:
+      - title
+      - description
