@@ -10,12 +10,12 @@ components:
       title:
         type: string
         default: '''Hello'''
-    render: |-
-      <div className={styles.header}>
-          <h1>
-              {this.props.title}
-          </h1>
-      </div>
+    render: |2-
+              <div className={styles.header}>
+                  <h1>
+                      {this.props.title}
+                  </h1>
+              </div>
   footer:
     render: |-
       <div className={styles.footer}>
