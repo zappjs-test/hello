@@ -10,15 +10,15 @@ components:
       title:
         type: string
         default: '''Hello'''
-    render: |2-
-                  <div className={styles.header}>
-                      <h1>
-                          {this.props.title}
-                      </h1>
-                  </div>
+    render: |-
+      <div className={styles.header}>
+          <h1>
+              {this.props.title}
+          </h1>
+      </div>
   footer:
     name: Footer
-    render: |2-
-                  <div className={styles.footer}>
-                      Copyright
-                  </div>
+    render: |-
+      <div className={styles.footer}>
+          Copyright
+      </div>
