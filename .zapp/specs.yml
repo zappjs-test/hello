@@ -17,7 +17,8 @@ components:
                       </h1>
                   </div>
   footer:
-    render: |-
-      <div className={styles.footer}>
-          Copyright
-      </div>
+    name: Footer
+    render: |2-
+                  <div className={styles.footer}>
+                      Copyright
+                  </div>
