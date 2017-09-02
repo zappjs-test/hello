@@ -3,3 +3,20 @@ app:
   description: This is a test.
   name: hello
   version: 1.0.0
+components:
+  header:
+    props:
+      title:
+        type: string
+        default: '''Hello'''
+    render: |-
+      <div className={styles.header}>
+          <h1>
+              {this.props.title}
+          </h1>
+      </div>
+  footer:
+    render: |-
+      <div className={styles.footer}>
+          Copyright
+      </div>
