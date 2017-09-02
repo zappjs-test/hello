@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class Footer extends Component {
     render() {
         return (
-            <div className={styles.footer}>
+<div className={styles.footer}>
     Copyright
 </div>
         );
