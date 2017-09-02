@@ -7,5 +7,12 @@
     "redux": "^3.7.1",
     "redux-thunk": "^2.2.0"
   },
-  "description": "This is a test."
+  "description": "This is a test.",
+  "name": "hello",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev": "webpack-dev-server",
+    "dev-build": "NODE_ENV=development webpack"
+  },
+  "version": "1.0.0"
 }
