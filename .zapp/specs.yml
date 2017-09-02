@@ -5,6 +5,7 @@ app:
   version: 1.0.0
 components:
   header:
+    name: Header
     props:
       title:
         type: string

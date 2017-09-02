@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class  extends Component {
+class Header extends Component {
 }
 
-.defaultProps({
+Header.defaultProps({
     title: 'Hello'
 });
 
-.propTypes = {
+Header.propTypes = {
     title: PropTypes.string
 };
 
